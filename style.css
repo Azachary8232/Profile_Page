@@ -42,3 +42,61 @@ background-color: darkcyan;
 color: white;
 }
 
+#container{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-style: solid;
+    border-color: yellow;
+    border-width: 5px;
+    height: 2000px;
+    margin-top: 30px;
+}
+
+#bodyBlock1{
+    flex: 2;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    height: 1500px;
+    margin-right: 15px;
+}
+
+#bodyBlock2{
+    flex: 1;
+    border-style: solid;
+    border-color: green;
+    border-width: 2px;
+    height: 1500px;
+    margin-left: 15px;
+}
+
+#card{
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+#education{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    height: 300px;
+}
+
+#requests{
+    border-style: solid;
+    border-color: orangered;
+    border-width: 2px;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+#connections{
+    border-style: solid;
+    border-color: purple;
+    border-width: 2px;
+    height: 300px;
+}
