@@ -1,0 +1,44 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navBar{
+    background-color: black;
+    color: white;
+    font-family: Roboto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#navBar-title{
+    margin-left: 150px;
+}
+
+#navBar-block1{
+    display: flex;
+}
+
+#navBar-links{
+    list-style-type: none;
+    display: flex;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.navBar-list{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#navBar-button{
+margin-right: 150px;
+margin-top: 3px;
+padding: 5px 15px;
+background-color: darkcyan;
+color: white;
+}
+
