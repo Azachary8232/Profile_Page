@@ -73,31 +73,31 @@ color: white;
 
 #card{
     border-style: solid;
-    border-color: gray;
-    border-width: 2px;
+    border-color: lightgray;
+    border-width: 3px;
     height: 400px;
     margin-bottom: 30px;
 }
 
 #education{
     border-style: solid;
-    border-color: black;
-    border-width: 2px;
+    border-color: lightgray;
+    border-width: 3px;
     height: 300px;
 }
 
 #requests{
     border-style: solid;
-    border-color: orangered;
-    border-width: 2px;
+    border-color: lightgray;
+    border-width: 3px;
     height: 200px;
     margin-bottom: 30px;
 }
 
 #connections{
     border-style: solid;
-    border-color: purple;
-    border-width: 2px;
+    border-color: lightgray;
+    border-width: 3px;
     height: 300px;
 }
 
@@ -160,3 +160,52 @@ color: white;
     margin-top: 10px;
 }
 
+#requestNo{
+    border-color: white;
+    border-style: solid;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    padding: 0px 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#request-title{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#people{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.people{
+    display: flex;
+    margin: 15px 10px 0px 10px;
+}
+
+.resize{
+    width: 35px;
+    margin-left: 10px;
+}
+
+#request-name{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#view-box{
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: lightgray;
+    display: flex;
+    margin-top: 10px;
+}
+
+#view-box a{
+    color: darkcyan;
+    margin: 5px 20px 0px;
+}
