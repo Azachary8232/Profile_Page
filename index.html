@@ -61,7 +61,7 @@
                         <h3 class="request-name" id="toddName">Todd E</h3>
                     </div>
                     <div class="people">
-                        <img src="accept-circle.png" alt="Check Yes" class="resize" id="accept1" onclick="removeRequest1(this)">
+                        <img src="accept-circle.png" alt="Check Yes" class="resize" id="accept1" onclick="removeRequest1(this); addConnection()">
                         <img src="close-circle.png" alt="Check No" class="resize" id="decline1" onclick="removeRequest1(this)">
                     </div>    
                 </div>
@@ -71,14 +71,14 @@
                         <h3 class="request-name" id="philName">Phil K</h3>
                     </div>
                     <div class="people">
-                        <img src="accept-circle.png" alt="Check Yes" class="resize" id="accept2" onclick="removeRequest2(this)">
+                        <img src="accept-circle.png" alt="Check Yes" class="resize" id="accept2" onclick="removeRequest2(this); addConnection()">
                         <img src="close-circle.png" alt="Check No" class="resize" id="decline2" onclick="removeRequest2(this)">
                     </div>    
                 </div>
             </div>
             <div id="connections">
                 <div id="ed-block">
-                    <div id="requestNo">500+</div>
+                    <div class="yourConnections" id="myConnections" >418</div>
                     <h3 id="request-title">Your Connections</h3>
                 </div>   
                 <div class="people">

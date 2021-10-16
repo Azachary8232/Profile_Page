@@ -6,6 +6,9 @@ function changeProfileName(){
     profileName.innerHTML = "Adam Zachary";
 }
 
+var count = 2;
+var requestCount = document.querySelector("#requestNo"); 
+
 var todd1 = document.querySelector("#toddImage");
 var todd2 = document.querySelector("#toddName");
 var accept1 = document.querySelector("#accept1");
@@ -17,6 +20,8 @@ function removeRequest1(element){
     element.remove();
     accept1.remove();
     decline1.remove();
+    count--;
+    requestCount.innerHTML = count;
 }
 
 var phil1 = document.querySelector("#philImage");
@@ -30,4 +35,15 @@ function removeRequest2(element){
     element.remove();
     accept2.remove();
     decline2.remove();
+    count--;
+    requestCount.innerHTML = count;
+}
+
+var connectionCount = 418;
+var connections = document.querySelector("#myConnections");
+
+function addConnection(){
+    connectionCount++;
+    connections.innerHTML = connectionCount;
+    console.log(connectionCount);
 }
