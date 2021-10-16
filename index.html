@@ -28,7 +28,7 @@
                 <div id="cardBlock">
                     <img src="user-circle.png" alt="Profile Logo" id="profile">
                 </div>
-                <h1 id="name" class="card-margin">Adam Zachary</h1>
+                <h1 id="name" class="card-margin">Jane Doe</h1>
                 <div class="card-margin">
                     <img src="map-marker.png" alt="Map Marker" id="map">
                     <h2 id="location">Kuna, ID</h2>
@@ -37,7 +37,7 @@
                 <h3 class="card-margin">Master of shadows and the Internet!</h3>
                 <div class="card-margin">
                     <img src="gear.png" alt="Gear" id="gear">
-                    <a href="#" id="editP">edit profile</a>
+                    <a href="#" id="editP" onclick="changeProfileName()">edit profile</a>
                 </div>
             </div>
             <div id="education">
@@ -57,22 +57,22 @@
                 </div>   
                 <div id="people">
                     <div class="people">
-                        <img src="todd-s.jpg" alt="Todd's Image" class="resize">
-                        <h3 id="request-name">Todd E</h3>
+                        <img src="todd-s.jpg" alt="Todd's Image" class="resize" id="toddImage">
+                        <h3 class="request-name" id="toddName">Todd E</h3>
                     </div>
                     <div class="people">
-                        <img src="accept-circle.png" alt="Check Yes" class="resize">
-                        <img src="close-circle.png" alt="Check No" class="resize">
+                        <img src="accept-circle.png" alt="Check Yes" class="resize" id="accept1" onclick="removeRequest1(this)">
+                        <img src="close-circle.png" alt="Check No" class="resize" id="decline1" onclick="removeRequest1(this)">
                     </div>    
                 </div>
                 <div id="people">
                     <div class="people">
-                        <img src="phil-s.jpg" alt="Phil's Image" class="resize">
-                        <h3 id="request-name">Phil K</h3>
+                        <img src="phil-s.jpg" alt="Phil's Image" class="resize" id="philImage">
+                        <h3 class="request-name" id="philName">Phil K</h3>
                     </div>
                     <div class="people">
-                        <img src="accept-circle.png" alt="Check Yes" class="resize">
-                        <img src="close-circle.png" alt="Check No" class="resize">
+                        <img src="accept-circle.png" alt="Check Yes" class="resize" id="accept2" onclick="removeRequest2(this)">
+                        <img src="close-circle.png" alt="Check No" class="resize" id="decline2" onclick="removeRequest2(this)">
                     </div>    
                 </div>
             </div>
@@ -103,5 +103,6 @@
             </div>
         </div>
     </div>
+<script src="script.js"></script>
 </body>
 </html>
